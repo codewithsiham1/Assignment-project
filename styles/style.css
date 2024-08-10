@@ -2,7 +2,7 @@
   margin: 0, auto;
 } */
    .responsive{
-    background: rgba(0, 0, 0, 0.445); ;
+    background: rgba(0, 0, 0, 0.712); ;
     
   
   }  
@@ -30,8 +30,8 @@
   .menu {
     display: flex;
     gap: 15px;
-    font-size: 30px;
-    margin-right: 85px;
+    font-size: 25px;
+     margin-right: 85px; 
     margin-top: 20px;
     /* backdrop-filter: blur(1px);
     background-color: #ffffff28; */
@@ -44,20 +44,33 @@
   }
   .home-menu {
     padding: 5px 10px 5px 10px;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 8px;
     background-color: rgb(230,83,60,1.0);
     border: 2px solid #fff;
+    color: #fff;
   }
-  .workout {
-    padding: 20px 15px 20px 15px;
-    /* margin-left: 468px; */
-    margin-left: 95rem;
-    margin-top: -15rem;
-    background-color: #ffffff36;
-    border-radius: 5px;
+    .video{
+    padding: 15px 18px 15px 18px;
+     margin-left: 69rem; 
+    /* transform: translate(0,-10rem);  */
+    margin-top: -10rem;
+    transform: translate(-2rem,-23rem);
+    background-color: #ffffff59;
+    border:#ffffff80 ;
     color: rgba(239,237,232,0.64);
-  }
+  } 
+  .workout {
+    padding: 20px 25px 20px 25px;
+    /* margin-left: 468px; */
+      margin-left: 48rem;  
+     /* margin-top: -145rem;  */
+     transform: translate(0,-14rem); 
+    background-color: #ffffff3f;
+    border-radius: 5px;
+    border: 2px #ffffff3f;
+    color: rgba(239,237,232,0.64);
+  }   
   .item {
     font-size: 25px;
     color: #fff;
@@ -67,8 +80,8 @@
     /* display: flex;
     text-align: center;
     align-items: center; */
-    /* margin-left: 200px; */
-    margin-top: 2rem;
+     margin-left: 200px; 
+    /* margin-top: 2rem; */
     /* margin-left: 15rem; */
   }
   /* nav menu end */
@@ -86,7 +99,7 @@
     padding: 13px 35px 13px 35px;
     border-radius: 20px;
     background-color: rgba(230,83,60,1.0);
-    border: 2px solid;
+    border: 2px solid rgba(230,83,60,1.0) ;
   }
   .download-btn {
     padding: 13px 25px 13px 25px;
@@ -125,7 +138,7 @@
   /* habit section start */
   .habit {
     text-align: center;
-    margin-top: 60px;
+     margin-top: -70px; 
     color: #ffffff36;
     font-size: 20px;
   }
@@ -139,7 +152,7 @@
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     color: rgba(255,255,255,0.10);
    
   }
@@ -152,6 +165,7 @@
   .Movement img {
     border-radius: 50%;
     border: 4px solid #fff;
+    border: 2px solid #ffffff36;
  
   }
   /* habit section end */
@@ -159,17 +173,17 @@
   /* run and extra section start */
   .run {
     display: flex;
-    gap: 140px;
+    gap: 30px;
+    margin-left: 10rem; 
     /* text-align: center;
     align-items: center; */
     /* margin-left: 190px; */
     /* margin-right: 150px; */
-    /* margin-left: 5rem;
-    margin-left: 15rem; */
+    /* margin-left: 9rem;  */
      margin-top: 35px;
     background-color: rgba(34,34,34,1.0);
     width: 65vw;
-    height: 30vh;
+    height: 35vh;
     border-radius: 15px;
     color: rgba(255,255,255,0.10);
 
@@ -183,18 +197,18 @@
   .run p{
     font-size: 20px;
     margin-left: 4rem;
+  
   }
-  .extra,
-  .mile {
-    /* margin-right: 30px; */
-  }
+
   .join {
     font-size: 20px;
     padding: 12px 50px 12px 50px;
     border-radius: 15px;
+    border: 2px solid rgb(230,83,60,1.0);
      margin-right: 60px; 
     background-color: rgb(230,83,60,1.0);
     margin-left: 4rem;
+    color: #fff;
   }
   .run img {
     width: 24vw;
@@ -207,12 +221,17 @@
   
   /* trainings part start  */
   .trainings {
-    margin-left: 150px;
+     margin-left: 150px; 
+    /* text-align: center; */
     margin-top: 25px;
-    color: rgba(255,255,255,0.10);
+   
   }
   .trainings h1{
     color: #fff;
+  }
+  .trainings p{
+    font-size: 20px;
+    color: rgba(255,255,255,0.10);
   }
   /*  trainings part end*/
   
@@ -225,30 +244,47 @@
   .row1 {
     width: 20vw;
     height: 25vh;
-    margin-left: 150px;
+     margin-left: 150px; 
   }
-  .column p {
+  /* .column p {
     transform: translate(0, -150px);
-  }
+  }  */
   .row2 {
     width: 32vw;
     height: 25vh;
+    position: relative;
   }
   .row3 {
     width: 34.5vh;
     height: 25vh;
   }
+  .lorem1{
+    transform: translate(0,-3rem);
+    color: #fff;
+font-size: 20px;
+  }
+  .class{
+    transform: translate(-8rem,-13rem);
+    color: #fff;
+    font-size: 20px;
+  }
+  .lorem{
+    transform: translate(-4rem,-4rem);
+    color: #fff;
+    font-size: 20px;
+  
+  }
   .column-2 {
     display: flex;
     text-align: center;
     align-items: center;
-    margin-top: -55px;
+    margin-top: -66px;
   }
   .row4 {
     width: 29vw;
     height: 24vh;
   
-    margin-left: 149px;
+     margin-left: 149px; 
   }
   .row5 {
     width: 20vw;
@@ -262,33 +298,60 @@
     text-align: center;
     align-items: center;
   }
-  .lorem {
-    margin-top: -70px;
+  .and{
+text-align: center;
+transform: translate(10rem,-13rem);
+font-size:18px;
+color: #fff;
+
+  }
+  .press{
+    transform: translate(0,-5rem);
+    font-size:18px;
+color: #fff;
+  }
+  .leg {
+    transform: translate(-4rem,-5rem);
+    font-size:18px;
+color: #fff;
   }
   /* three line image end */
   
    /* bmi calculator part start */
-  .bmi{
+  /* .bmi{
     margin-top: 40px;
   margin-left: 250px;
   color: rgba(255,255,255,0.10);
-  }
+  } */
+   .bmi{
+    text-align: center;
+    margin-top: -3rem;
+  
+   }
   .bmi h1{
     color: #fff;
   }
+  .bmi p{
+    color:rgba(255,255,255,0.10) ;
+    font-size: 20px;
+  }
    td,th{
-    border: 2px solid rgba(25,25,25,1.00);
-    padding: 10px 10px;
+    border: 2px solid rgba(255, 255, 255, 0.479);
+    padding: 10px 20px;
   }
   .chart h1{
     color: #fff;
   }
   .chart table{
-    border-collapse: collapse;
+     border-collapse: collapse; 
+     color: rgba(255,255,255,0.10); 
   }
-  .chart{
-    color: rgba(255,255,255,0.10);
+  .chart th{
+   color: #fff;
+  
+
   }
+
   .calculation{
     display: flex;
     align-items: center;
@@ -302,13 +365,19 @@
   }
   .calculate p{
     color: rgba(255,255,255,0.10);
+    font-size: 15px;
+   
   }
+
   .height{
     padding: 8px 60px;
     border-radius: 10px;
     backdrop-filter: blur(2px);
     background-color: #ffffff0c;
     color: rgba(255,255,255,0.10);
+    border: 2px solid rgba(255,255,255,0.10);
+    margin-bottom: 10px;
+   
   }
   .weight{
     padding: 8px 60px;
@@ -316,26 +385,35 @@
     backdrop-filter: blur(2px);
     background-color: #ffffff0c;
     color: rgba(255,255,255,0.10);
+    border: 2px solid rgba(255,255,255,0.10);
+    margin-left: 10px;
+    
   }
   .age{
     padding: 8px 80px;
     border-radius: 10px;
     backdrop-filter: blur(2px);
     background-color: #ffffff0c;
+    border: 2px solid rgba(255,255,255,0.10);
     color: rgba(255,255,255,0.10);
+    margin-bottom: 10px;
+    
   }
   .sex{
     padding: 8px 71px;
     border-radius: 10px;
     backdrop-filter: blur(2px);
     background-color: #ffffff0c;
+    border: 2px solid rgba(255,255,255,0.10);
     color: rgba(255,255,255,0.10);
+    margin-left: 10px;
   }
   .select{
     padding: 8px 109px;
     border-radius: 10px; 
     backdrop-filter: blur(2px);
     background-color: #ffffff0c;
+    border: 2px solid rgba(255,255,255,0.10);
     color: rgba(255,255,255,0.10);
   }
   .btn-calculate{
@@ -343,6 +421,7 @@
     padding: 8px 40px;
     border-radius: 15px;
     background-color: rgb(230,83,60,1.0);
+    border: 2px solid rgb(230,83,60,1.0);
     color: #fff;
   }
    /* bmi calculator part end */
@@ -351,10 +430,14 @@
   .team {
     text-align: center;
     margin-top: 45px;
-    color: rgba(255,255,255,0.10);
+ 
   }
   .team h1{
     color: #fff;
+  }
+  .team p{
+    color: rgba(255,255,255,0.10);
+    font-size: 18px;
   }
   /* team part end */
   
@@ -365,36 +448,61 @@
       text-align: center;
       align-items: center;
       margin-right: 265px;
-      margin-left: 265px;
+       margin-left: 265px; 
       margin-top: 60px;
       margin-bottom: 80px;
-      background-color: bisque;
+      background-color: rgba(34, 34, 34, 0.753);
       width: 60vw;
       height: 50vh;
       border-radius: 10px;
     
   }
-  .png{
+  
+  .pnges{
     text-align: center;
-    margin-top: -50px;
+    margin-top: -55px;
     margin-right: 91px;
     color: #fff;
   }
-  .pnges{
+  .pnges-1{
     text-align: center;
-    margin-top: -50px;
+    margin-top: -55px;
+    margin-right: 91px;
+    color: #fff;
+  }
+  .png-12{
+    text-align: center;
+    margin-top: -8px;
+    margin-right: 100px;
+    color: #fff;
+  }
+  .png{
+    text-align: center;
+    margin-top: -55px;
     margin-right: 91px;
     color: #fff;
   }
   .png-1{
       text-align: center;
-      margin-top: -5px;
+      margin-top: -8px;
+      margin-right: 100px;
+      color: #fff;
+    }
+    .png-m{
+      text-align: center;
+      margin-top: -55px;
+      margin-right: 91px;
+      color: #fff;
+    }
+    .png-n{
+      text-align: center;
+      margin-top: -8px;
       margin-right: 100px;
       color: #fff;
     }
     .png-11{
       text-align: center;
-      margin-top: -5px;
+      margin-top: -8px;
       margin-right: 100px;
       color: #fff;
     }
@@ -414,16 +522,19 @@
   /* trainer part end */
   
   /* footer section start */
+  .reserved{
+    background-color:rgba(34, 34, 34, 0.74);
+  }
   .get{
     display: flex;
-  text-align: center;
-  justify-content: space-evenly;
+  /* text-align: center; */
+   justify-content: space-evenly; 
   color: rgba(255,255,255,0.40);
   }
   .footer h1{
    font-size: 30px;
-   margin-right: 195px;
-   color: #fff;
+   margin-right: 10rem;
+   color:rgb(230,83,60,1.0);
   }
   .get-started h1{
    font-size: 20px;
@@ -442,11 +553,9 @@
   }
   footer >hr{
     margin-top: 10px;
-    width: 59vw;
-    margin-left: 280px;
+    width: 69vw;
+    margin-left: 220px;
   }
-  .reserved{
-    background-color:rgba(255,255,255,0.10);
-  }
+
   /* footer section end */
   

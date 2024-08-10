@@ -1,74 +1,201 @@
-@media screen and (max-width:576px) {
-    /* *{
+@media screen and (max-width: 576px) {
+  /* *{
         margin: 0,auto;
     } */
-    .banner{
-        width: 100%;
-      height: 107vh;
-
-    }
-    .fitness{
-        font-size: 35px;
-        text-align: right;
-    }
-    .menu{
-        display:none ;
-    }
-    .hum-barger{
-        display: block;
-        margin-top: 3rem;
-        font-size: 2rem;
-        color: #fff;
-        margin-right: 2rem;
-    }
-    .get-body{
-      /* margin-right: 25rem; */
-      position: relative;
-    }
-    .get-body h1{
+  .banner {
+    width: 100%;
+    height: 108vh;
+  }
+  .fitness {
+    font-size: 35px;
+    text-align: right;
+    margin-top: 3rem;
+  }
+  .menu {
+    display: none;
+  }
+  .hum-barger {
+    display: block;
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: #fff;
+    margin-right: 2rem;
+  }
+  .get-body {
+    /* margin-right: 25rem; */
+    position: relative;
+    margin-left: 1rem;
+  }
+  .get-body h1 {
     font-size: 40px;
-    }
-    .get-body p{
-        width: 60%;
-    }
-    .hero-image{
-        position: absolute;
-        margin-top: 20rem;
-       
-    }
-     .hero-image img{
-        width: 70vw;
+  }
+  .get-body p {
+    width: 60%;
+  }
+  .hero-image {
+    position: absolute;
+    margin-top: 20rem;
+  }
+  .hero-image img {
+    width: 70vw;
+    position: relative;
+  }
+  .video {
+    left: -55rem;
+    bottom: -5rem;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+  }
+  .workout {
+    /* margin-left: 1rem; 
+        margin-top: -4rem; */
+    margin-left: 1rem;
+    padding: 15px 20px 15px 20px;
+  }
+  .habit {
+    margin-right: 1rem;
+  }
+  .chance {
+    display: flex;
+    flex-direction: column;
+  }
+  .run {
+    display: flex;
+    flex-direction: column;
+    margin-left: -1px;
+    /* text-align: left; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* text-align: right; */
+    /* justify-content: flex-start; */
+    width: 98%;
+    height: 90%;
+    margin-top: 1rem;
+  }
+  .run h1 {
+    margin: 0, auto;
+  }
+  .run p {
+    font-size: 15px;
+    margin: 0, auto;
+  }
+  .run img {
+    width: 90%;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+  }
+  .trainings {
+    margin-left: -1px;
+  }
+  .trainings h1 {
+    font-size: 40px;
+  }
+  .column {
+   
+    width: 100%;
+  }
+  .row1 {
+    width: 100%;
+    margin-left: 10px;
+  }
+  .row2 {
+    width: 90%;
+  }
+  .row3 {
+    display: none;
+  }
+  .lorem1 {
+  
+  }
+  .class {
+margin-left: 10rem;
+  }
+  .lorem {
+    display: none;
+  }
 
+  .row4 {
+    width: 95%;
+    margin-left: 10px;
+  
+  }
+  .row5 {
+    width: 95%;
+    margin-right: 10px;
+ 
+  }
+  .row6 {
+    display: none;
+  }
+  .and {
+ transform: translate(-1rem,-5rem);
     }
-    .habit{
-       margin-right: 1rem;
-    }
-    .chance{
-        display: flex;
-        flex-direction: column;
-    }
-    .run{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        text-align: left;
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* text-align: right; */
-        justify-content: flex-start;
-        width: 99%;
-        height: 95%;
 
-    }
-    .run h1{
-        margin: 0,auto;
-    }
-    .run p{ 
-         font-size: 15px;
-        margin: 0,auto;
+  .leg {
+    display: none;
+  }
+  .bmi {
+    margin-top: 1rem;
+  }
+  .calculation {
+    display: flex;
+    flex-direction: column;
+    width: 97vw;
+    height: 90vh;
+  }
 
-    }
-     .run img{
-        width: 100%;
-        margin-top: -2rem;
-     }
+  .calculate p{
+   font-size: 20px;
+  }
+  .trainer-image {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+    margin-left: -1px;
+  }
+  .trainer {
+    display: none;
+  }
+  .trainer-1 {
+    width: 70vw;
+    margin-top: 15px;
+  }
+  .pnges {
+    display: none;
+  }
+  .png-11 {
+    display: none;
+  }
+  .pnges-1 {
+    text-align: center;
+    margin-top: -50px;
+    margin-right: 91px;
+    color: #fff;
+  }
+  .png-12 {
+  }
+  .png-m {
+    display: none;
+  }
+  .png-n {
+    display: none;
+  }
+  .reserved{
+ 
+  }
+  .get {
+    display: flex;
+    flex-direction: column;
+  }
+  .tag {
+    width: 30%;
+  }
+  .footer h1{
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .get-started li{
+    margin-right: 3rem;
+  }
 }
