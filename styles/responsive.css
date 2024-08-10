@@ -142,10 +142,39 @@ margin-left: 10rem;
     flex-direction: column;
     width: 97vw;
     height: 90vh;
+    margin-left: 1px;
   }
 
   .calculate p{
    font-size: 20px;
+   width: auto;
+  }
+  .calculate h1{
+    width: auto;
+  }
+  .height{
+    padding: auto;
+    width: auto;
+  }
+  .weight{
+    padding: auto;
+    width: auto;
+  }
+  .age{
+    padding: auto;
+    width: auto; 
+  }
+  .sex{
+    padding: auto;
+    width: auto; 
+  }
+  .select{
+    padding: auto;
+    width: auto;
+  }
+  .btn-calculate{
+    padding: auto;
+    width: auto;
   }
   .trainer-image {
     display: flex;

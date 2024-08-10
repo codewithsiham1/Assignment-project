@@ -353,12 +353,13 @@ color: #fff;
   }
 
   .calculation{
-    display: flex;
+     display: flex;
     align-items: center;
     justify-content: space-evenly;
     background-color: rgba(34, 34, 34, 0.753);
-    width: 98vw;
+    width: 99vw;
     height: 40vh;
+    margin-left: -1rem;
   }
   .calculate h1{
     color: #fff;
