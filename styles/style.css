@@ -554,7 +554,7 @@ color: #fff;
   footer >hr{
     margin-top: 10px;
     width: 69vw;
-    margin-left: 220px;
+    /* margin-left: 220px; */
   }
 
   /* footer section end */
